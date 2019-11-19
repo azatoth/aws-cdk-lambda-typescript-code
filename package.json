@@ -1,10 +1,13 @@
 {
-  "name": "@clouden-cdk/aws-lambda-typescript",
-  "version": "1.6.1",
+  "name": "aws-cdk-lambda-typescript-code",
+  "version": "1.16.3",
   "private": false,
   "description": "TypeScript Build Step for AWS CDK Lambda Functions",
-  "main": "lib/typescript-code.js",
-  "types": "lib/typescript-code.d.ts",
+  "repository": {
+    "url": "https://github.com/azatoth/aws-cdk-lambda-typescript-code"
+  },
+  "main": "dist/typescript-code.js",
+  "types": "dist/typescript-code.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -14,12 +17,16 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@aws-cdk/aws-lambda": "^1.6.1",
-    "@aws-cdk/core": "^1.6.1",
-    "aws-cdk": "^1.6.1"
+    "@aws-cdk/aws-lambda": "1.16.3",
+    "@aws-cdk/core": "1.16.3",
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^12.12.9",
+    "aws-cdk": "1.16.3"
   },
   "dependencies": {
-    "recursive-readdir": "^2.2.2",
-    "typescript": "^3.6.2"
+    "chalk": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "readdir-enhanced": "^5.1.1",
+    "typescript": "^3.7.2"
   }
 }

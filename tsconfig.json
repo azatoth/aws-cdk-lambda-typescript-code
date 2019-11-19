@@ -4,12 +4,11 @@
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "rootDir": "./src",
-    "outDir": "./lib",
+    "outDir": "dist",
     "declaration": true
   },
   "exclude": [
     "example",
-    "lib"
+    "dist"
   ]
 }
